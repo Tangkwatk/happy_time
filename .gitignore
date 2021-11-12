@@ -28,7 +28,7 @@
 .flutter-plugins-dependencies
 .packages
 .pub-cache/
-.pub/
+.pub/u
 
 
 # Web related
