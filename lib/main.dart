@@ -5,6 +5,7 @@ import 'package:happy_project/page/Package/packageDetail_page.dart';
 import 'package:happy_project/page/Package/package_page.dart';
 import 'package:happy_project/page/home_page.dart';
 import 'package:happy_project/page/login_page.dart';
+import 'package:happy_project/page/test.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      scrollBehavior: CustomScrollBehavior(),
+      title: 'Happy Gift Time',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         textTheme: const TextTheme(
